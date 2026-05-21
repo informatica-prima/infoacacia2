@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:wdth,wght@100..125,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@100..125,100..900&display=swap");
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.seccion {
+  position: relative;
+  width: 100%;
+}
+#sec-1,
+#sec-3 {
+  background: #235284;
+}
+#sec-2 {
+  background: white; /* red;*/
+}
+#tres {
+  top: 0px;
+}
+#dos {
+  z-index: 10;
+}
+.svg-x {
+  display: block; /* Elimina el espacio extra inferior de los elementos inline */
+  width: 100%;
+}
+.numeral {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-family: "Sour Gummy", system-ui, sans-serif;
+  color: fuchsia;
+  opacity: 0.8;
+  text-shadow: 2px 2px 4px rgba(255, 0, 128, 0.8);
+  font-size: clamp(40px, 18vw, 60px);
+  letter-spacing: -0.03333em;
+  margin: 0;
+  user-select: none;
+  cursor: pointer;
+  line-height: 100%;
+}
+.numeral:hover {
+  display: flex;
+  /*color: green;*/
+  transform: rotate(10deg);
+}
+
+.contenido {
+  position: relative;
+  padding-top: 15px;
+  padding-left: 50px;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 14pt;
+  min-height: 70px;
+}
+#cont-1,
+#cont-3 {
+  color: white;
+}
+#cont-2 {
+  color: #235284;
+}
